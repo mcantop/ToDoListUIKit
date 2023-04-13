@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		524F9B0529E7771500C29E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F9B0429E7771500C29E09 /* AppDelegate.swift */; };
 		524F9B0729E7771500C29E09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F9B0629E7771500C29E09 /* SceneDelegate.swift */; };
-		524F9B0929E7771500C29E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F9B0829E7771500C29E09 /* ViewController.swift */; };
+		524F9B0929E7771500C29E09 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F9B0829E7771500C29E09 /* TasksViewController.swift */; };
 		524F9B0C29E7771500C29E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524F9B0A29E7771500C29E09 /* Main.storyboard */; };
 		524F9B0E29E7771600C29E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524F9B0D29E7771600C29E09 /* Assets.xcassets */; };
 		524F9B1129E7771600C29E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524F9B0F29E7771600C29E09 /* LaunchScreen.storyboard */; };
+		524F9B1A29E777E700C29E09 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 524F9B1929E777E700C29E09 /* FirebaseAuth */; };
+		524F9B1C29E777E700C29E09 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 524F9B1B29E777E700C29E09 /* FirebaseFirestore */; };
+		524F9B1E29E777E700C29E09 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 524F9B1D29E777E700C29E09 /* FirebaseFirestoreSwift */; };
+		524F9B2129E7788600C29E09 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 524F9B2029E7788600C29E09 /* MBProgressHUD */; };
+		524F9B2429E7789D00C29E09 /* Loaf in Frameworks */ = {isa = PBXBuildFile; productRef = 524F9B2329E7789D00C29E09 /* Loaf */; };
+		524F9B2729E778B000C29E09 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 524F9B2629E778B000C29E09 /* FSCalendar */; };
+		524F9B2A29E77B8D00C29E09 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F9B2929E77B8D00C29E09 /* MenuSection.swift */; };
+		52E8380B29E77EED003C3AB3 /* OngoingTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8380A29E77EED003C3AB3 /* OngoingTasksTableViewController.swift */; };
+		52E8380D29E77FAD003C3AB3 /* DoneTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8380C29E77FAD003C3AB3 /* DoneTasksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		524F9B0129E7771500C29E09 /* ToDoListUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524F9B0429E7771500C29E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524F9B0629E7771500C29E09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		524F9B0829E7771500C29E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		524F9B0829E7771500C29E09 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		524F9B0B29E7771500C29E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		524F9B0D29E7771600C29E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524F9B1029E7771600C29E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524F9B1229E7771600C29E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524F9B2929E77B8D00C29E09 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		52E8380A29E77EED003C3AB3 /* OngoingTasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingTasksTableViewController.swift; sourceTree = "<group>"; };
+		52E8380C29E77FAD003C3AB3 /* DoneTasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTasksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524F9B1A29E777E700C29E09 /* FirebaseAuth in Frameworks */,
+				524F9B2729E778B000C29E09 /* FSCalendar in Frameworks */,
+				524F9B2429E7789D00C29E09 /* Loaf in Frameworks */,
+				524F9B1C29E777E700C29E09 /* FirebaseFirestore in Frameworks */,
+				524F9B2129E7788600C29E09 /* MBProgressHUD in Frameworks */,
+				524F9B1E29E777E700C29E09 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,34 @@
 		524F9B0329E7771500C29E09 /* ToDoListUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				52E8380929E77EDB003C3AB3 /* Controller */,
+				524F9B2829E77B7000C29E09 /* Model */,
 				524F9B0429E7771500C29E09 /* AppDelegate.swift */,
 				524F9B0629E7771500C29E09 /* SceneDelegate.swift */,
-				524F9B0829E7771500C29E09 /* ViewController.swift */,
 				524F9B0A29E7771500C29E09 /* Main.storyboard */,
-				524F9B0D29E7771600C29E09 /* Assets.xcassets */,
 				524F9B0F29E7771600C29E09 /* LaunchScreen.storyboard */,
+				524F9B0D29E7771600C29E09 /* Assets.xcassets */,
 				524F9B1229E7771600C29E09 /* Info.plist */,
 			);
 			path = ToDoListUIKit;
+			sourceTree = "<group>";
+		};
+		524F9B2829E77B7000C29E09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				524F9B2929E77B8D00C29E09 /* MenuSection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52E8380929E77EDB003C3AB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				524F9B0829E7771500C29E09 /* TasksViewController.swift */,
+				52E8380A29E77EED003C3AB3 /* OngoingTasksTableViewController.swift */,
+				52E8380C29E77FAD003C3AB3 /* DoneTasksTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +120,14 @@
 			dependencies = (
 			);
 			name = ToDoListUIKit;
+			packageProductDependencies = (
+				524F9B1929E777E700C29E09 /* FirebaseAuth */,
+				524F9B1B29E777E700C29E09 /* FirebaseFirestore */,
+				524F9B1D29E777E700C29E09 /* FirebaseFirestoreSwift */,
+				524F9B2029E7788600C29E09 /* MBProgressHUD */,
+				524F9B2329E7789D00C29E09 /* Loaf */,
+				524F9B2629E778B000C29E09 /* FSCalendar */,
+			);
 			productName = ToDoListUIKit;
 			productReference = 524F9B0129E7771500C29E09 /* ToDoListUIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +156,12 @@
 				Base,
 			);
 			mainGroup = 524F9AF829E7771500C29E09;
+			packageReferences = (
+				524F9B1829E777E700C29E09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				524F9B1F29E7788600C29E09 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				524F9B2229E7789D00C29E09 /* XCRemoteSwiftPackageReference "Loaf" */,
+				524F9B2529E778B000C29E09 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 524F9B0229E7771500C29E09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524F9B0929E7771500C29E09 /* ViewController.swift in Sources */,
+				524F9B0929E7771500C29E09 /* TasksViewController.swift in Sources */,
 				524F9B0529E7771500C29E09 /* AppDelegate.swift in Sources */,
+				524F9B2A29E77B8D00C29E09 /* MenuSection.swift in Sources */,
 				524F9B0729E7771500C29E09 /* SceneDelegate.swift in Sources */,
+				52E8380D29E77FAD003C3AB3 /* DoneTasksTableViewController.swift in Sources */,
+				52E8380B29E77EED003C3AB3 /* OngoingTasksTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +347,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +356,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcantop.ToDoListUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +378,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +387,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcantop.ToDoListUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +418,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		524F9B1829E777E700C29E09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		524F9B1F29E7788600C29E09 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		524F9B2229E7789D00C29E09 /* XCRemoteSwiftPackageReference "Loaf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/schmidyy/Loaf";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		524F9B2529E778B000C29E09 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		524F9B1929E777E700C29E09 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524F9B1829E777E700C29E09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		524F9B1B29E777E700C29E09 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524F9B1829E777E700C29E09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		524F9B1D29E777E700C29E09 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524F9B1829E777E700C29E09 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		524F9B2029E7788600C29E09 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524F9B1F29E7788600C29E09 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		524F9B2329E7789D00C29E09 /* Loaf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524F9B2229E7789D00C29E09 /* XCRemoteSwiftPackageReference "Loaf" */;
+			productName = Loaf;
+		};
+		524F9B2629E778B000C29E09 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 524F9B2529E778B000C29E09 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 524F9AF929E7771500C29E09 /* Project object */;
 }
